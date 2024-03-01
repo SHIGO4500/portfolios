@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Arvo;
+    src: url("./Arvo/Arvo-Regular.ttf");
+}
+body{
+    font-family: Arvo;
+}
+.herotext{
+    font-family: Arvo;
+}
+#navbomb{
+    background-color: rgb(247, 246, 249);
+}
+#listin li a{
+    position: relative;
+}
+#listin li a:after{
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(31, 13, 70, 1);
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s ease-in-out;
+}
+#listin :hover::after{
+    width: 100%;
+    font-size: larger;
+}
+#listin{
+    /* text-align: center; */
+    gap: 30px;
+    margin-left: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(31, 13, 70, 1);
+}
+#imager{
+    width: 10%;
+    margin-left: 40px;
+}
+#imager img{
+    width: 60%;
+}
+#butto{
+    color: rgba(31, 13, 70, 1);
+    background-color: rgb(245, 249, 247);
+}
+#butto :hover{
+    color: rgba(31, 13, 70, 1);
+    
+}
+#butto span{
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler-icon{
+    color: rgb(246, 246, 246);
+}
+.header{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: start;
+    font-size: 150px;
+    /* border: 2px solid red; */
+    width: 20%;
+} 
+.header h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    transition: .5s ease-out;
+    
+}
+.header h2:hover{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.heads h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.heads p{
+    font-size: 20px;
+}
+#nav-tab button{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#nav-tab button:hover{
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: rgba(205, 225, 232, 1);
+}
+.card{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+.col{
+    margin-top: 40px;
+}
+.card img{
+    padding: 20px;
+    border-radius: 25px;
+}
+.card-body h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-body p{
+    color: white;
+    font-size: 15px;
+}

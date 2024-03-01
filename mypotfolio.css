@@ -1,0 +1,389 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Arvo;
+    src: url("./Arvo/Arvo-Regular.ttf");
+}
+body{
+    font-family: Arvo;
+}
+.herotext{
+    font-family: Arvo;
+}
+#navbomb{
+    background-color: rgb(247, 246, 249);
+}
+#listin li a{
+    position: relative;
+}
+#listin li a:after{
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(31, 13, 70, 1);
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s ease-in-out;
+}
+#listin :hover::after{
+    width: 100%;
+    font-size: larger;
+}
+#listin{
+    /* text-align: center; */
+    gap: 30px;
+    margin-left: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(31, 13, 70, 1);
+}
+#imager{
+    width: 10%;
+    margin-left: 40px;
+}
+#imager img{
+    width: 60%;
+}
+#butto{
+    color: rgba(31, 13, 70, 1);
+    background-color: rgb(245, 249, 247);
+}
+#butto :hover{
+    color: rgba(31, 13, 70, 1);
+    
+}
+#butto span{
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler-icon{
+    color: rgb(246, 246, 246);
+}
+.background-img{
+    background: url(./img/image\ 1.png) no-repeat center;
+    background-size: cover;
+    background-color: rgba(205, 225, 232, 1);
+    width: 100%;
+    height: 90vh;
+}
+.herotext h1{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: Arvo;
+}
+.herotext p{
+    line-height: 40px;
+    font-size:  21px;
+    font-weight: 400;
+}
+.herotext button{
+    border: none;
+    padding: 10px 25px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.herotext button:hover{
+    background-color: red;
+    border: none;
+
+}
+.herotext{
+    width: 50%;
+    /* border: 2px solid red; */
+    padding-top: 200px;
+    padding-left: 40px;
+}
+/* .welcome-img{
+    
+} */
+#carouselExampleFade{
+    width: 700px;
+    border: 15px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    background-color: black;
+    height: 73vh;
+}
+#carouselExampleFade img{
+    width: 100%;
+    border-radius: 20px;
+    height: 70vh;
+}
+
+@media screen and (max-width:1040px){
+    #listin{
+        /* text-align: center; */
+        gap: 30px;
+        margin-left: 40%;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(31, 13, 70, 1);
+    }
+    .herotext{
+        width: 50%;
+        /* border: 2px solid red; */
+        padding-top: 150px;
+        padding-left: 40px;
+    }
+
+    #carouselExampleFade{
+        width: 400px;
+        border: 15px solid black;
+        border-radius: 20px;
+        margin-top: 100px;
+        background-color: black;
+        height: 64.2vh;
+    }
+    #carouselExampleFade img{
+        width: 100%;
+        border-radius: 20px;
+        height: 60vh;
+    }
+
+    .herotext h3{
+        font-size: 15px;
+    }
+    .herotext h1{
+        font-size: 38px;
+        font-weight: 800;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 25px;
+        font-size:  15px;
+        font-weight: 400;
+    }
+   
+
+    .herotext button{
+        border: none;
+        padding: 5px 15px;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .herotext button:hover{
+        background-color: red;
+        border: none;
+    
+    }
+
+}
+
+@media screen and (max-width:994px){
+    .herotext h3{
+        font-size: 15px;
+    }
+    .herotext h1{
+        font-size: 36px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 25px;
+        font-size:  15px;
+        font-weight: 400;
+    }
+   
+
+    .herotext button{
+        border: none;
+        padding: 5px 15px;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .herotext button:hover{
+        background-color: red;
+        border: none;
+    
+    }
+}
+@media screen and (max-width:944px){
+    .herotext h1{
+        font-size: 34px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    
+}
+@media screen and (max-width:896px){
+    .herotext h1{
+        font-size: 33px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    
+}
+@media screen and (max-width:870px){
+    .herotext h1{
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    
+}
+@media screen and (max-width:848px){
+    .herotext h1{
+        font-size: 31px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 22px;
+        font-size:  14px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:826px){
+    .herotext h1{
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 20px;
+        font-size:  13px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:800px){
+    .herotext h1{
+        font-size: 29px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 20px;
+        font-size:  12px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:788px){
+    .herotext h1{
+        font-size: 28px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 20px;
+        font-size:  13px;
+        font-weight: 400;
+    }
+    #carouselExampleFade{
+        width: 350px;
+        border: 15px solid black;
+        border-radius: 20px;
+        margin-top: 100px;
+        background-color: black;
+        height: 64.2vh;
+    }
+    #carouselExampleFade img{
+        width: 100%;
+        border-radius: 20px;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:748px){
+    .herotext h1{
+        font-size: 27px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 20px;
+        font-size:  14px;
+        font-weight: 400;
+    }
+    #carouselExampleFade{
+        width: 350px;
+        border: 15px solid black;
+        border-radius: 20px;
+        margin-top: 100px;
+        background-color: black;
+        height: 64.2vh;
+    }
+    #carouselExampleFade img{
+        width: 100%;
+        border-radius: 20px;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:729px){
+    .herotext h1{
+        font-size: 26px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 20px;
+        font-size:  12px;
+        font-weight: 400;
+    }
+    #carouselExampleFade{
+        width: 350px;
+        border: 15px solid black;
+        border-radius: 20px;
+        margin-top: 100px;
+        background-color: black;
+        height: 64.2vh;
+    }
+    #carouselExampleFade img{
+        width: 100%;
+        border-radius: 20px;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:703px){
+    .herotext h1{
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Arvo;
+    }
+    .herotext p{
+        line-height: 20px;
+        font-size:  15px;
+        font-weight: 400;
+    }
+    #carouselExampleFade{
+        display: none;
+    }
+
+    .herotext{
+        width: 100%;
+        /* border: 2px solid red; */
+        padding-top: 150px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+
+
+
+
+
+
